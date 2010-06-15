@@ -1,0 +1,65 @@
+<html>
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src="jquery-xpubsub.min.js"></script>
+  <script src="test-chat.js"></script>
+  <style>
+    .chatroom
+    {
+      float: left;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div class="chatroom">
+    <h2>
+      Room #1</h2>
+    <div>
+      <strong>Jack:</strong>
+      <input type="text" />
+      <button>
+        Send</button>
+    </div>
+    <div>
+      <strong>John:</strong>
+      <input type="text" />
+      <button>
+        Send</button>
+    </div>
+    <ul>
+    </ul>
+  </div>
+  <div class="chatroom">
+    <h2>
+      Room #2</h2>
+    <div>
+      <strong>Jim:</strong>
+      <input type="text" />
+      <button>
+        Send</button>
+    </div>
+    <div>
+      <strong>Jane:</strong>
+      <input type="text" />
+      <button>
+        Send</button>
+    </div>
+    <ul>
+    </ul>
+  </div>
+  <div class="chatroom" id="opRoom">
+    <h2>
+      OP monitor channel
+    </h2>
+    <div>
+      <strong>OP:</strong>
+      <input type="text" />
+      <button>
+        Broadcast</button>
+    </div>
+    <ul>
+    </ul>
+  </div>
+</body>
+</html>
