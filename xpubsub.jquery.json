@@ -7,7 +7,7 @@
     "email": "service@chakrit.net",
     "url": "http://chakrit.net"
   },
-  "license": [{
+  "licenses": [{
     "type": "BSD",
     "url": "http://opensource.org/licenses/BSD-3-Clause"
   }],
