@@ -1,0 +1,26 @@
+{
+  "name": "xpubsub",
+  "version": "v0.1.0",
+  "title": "jQuery-xPubSub",
+  "author": {
+    "name": "Chakrit Wichian",
+    "email": "service@chakrit.net",
+    "url": "http://chakrit.net"
+  },
+  "license": [{
+    "type": "BSD",
+    "url": "http://opensource.org/licenses/BSD-3-Clause"
+  }],
+  "dependencies": {
+    "jquery": ">= 1.4.0"
+  },
+  "description": "A very minimal client-side publish/subscribe system on top of jQuery.",
+  "keywords": "pubsub, publish subscribe",
+  "homepage": "https://github.com/chakrit/jquery-xpubsub",
+  "maintainers": [{
+    "name": "Chakrit Wichian",
+    "email": "service@chakrit.net",
+    "url": "http://chakrit.net"
+  }],
+  "bugs": "https://github.com/chakrit/jquery-xpubsub/issues"
+}
